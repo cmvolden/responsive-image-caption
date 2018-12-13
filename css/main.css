@@ -46,3 +46,49 @@ p {
   margin: 0;
   padding: .5rem 0;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    position: relative;
+  }
+
+  .content-body {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    position: absolute;
+    top: 135px;
+    left: 250px;
+    border-radius: 20px;
+    margin-right: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .content-body {
+    top: 290px;
+    bottom: 380px;
+    left: 565px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
