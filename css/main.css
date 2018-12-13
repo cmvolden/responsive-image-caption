@@ -10,9 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: Georgia, serif;
-  font-family: "Denk One", sans-serif;
-  font: 100%/1.3;
+  font: normal 100%/1.3 Georgia, serif;
   margin: 0;
 }
 
